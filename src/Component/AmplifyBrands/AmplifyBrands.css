@@ -1,0 +1,50 @@
+.AmplifyBrands_Cont{
+  @apply bg-black h-screen
+}
+.AmplifyBrands_Cont{
+  @apply  text-white flex justify-center items-center relative
+}
+.AmplifyBrands_innerCont > h1{
+  @apply text-9xl
+} 
+
+.AmplifyBrands_innerCont > h1:first-child{
+  @apply text-center 
+}
+.circle_cont {
+@apply absolute flex justify-center items-center;
+height: 200px;
+}
+
+.outerCircle {
+@apply rounded-full border-2 border-yellow-200 h-[400px] w-[400px] flex justify-center items-center;
+}
+
+.innerCircle1 {
+@apply rounded-full border-2 border-yellow-200 h-[300px] w-[300px] flex justify-center items-center;
+}
+
+.innerCircle2 {
+@apply rounded-full border-2 border-yellow-200 h-[200px] w-[200px];
+}
+
+.AmplifyBrands_mainCont {
+position: relative;
+}
+
+.AmplifyBrands_Cont {
+position: relative;
+}
+
+.AmplifyBrands_innerCont {
+position: relative;
+z-index: 10;
+}
+
+.circle_cont {
+position: absolute; 
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 1;
+}

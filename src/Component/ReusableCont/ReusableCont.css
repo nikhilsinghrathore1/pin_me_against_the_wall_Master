@@ -1,0 +1,32 @@
+.mainCont {
+    @apply   pt-20  flex justify-center;
+  }
+  
+  .innerCont {
+    @apply my-40 mb-48;
+  }
+  
+  .innerCont> h1 {
+    @apply text-3xl;
+  }
+  
+  .heading-Cont {
+    @apply text-8xl my-16;
+  }
+  
+  .heading-Cont > h1:first-child {
+    @apply -ml-24 flex py-8;
+  }
+  .heading-Cont > h1:first-child >img {
+    @apply h-24 w-24 -mt-10
+  }
+  .paragraph-Cont {
+    @apply flex justify-center ;
+  }
+ 
+  .paragraph-Cont > p {
+    @apply w-60 mx-auto text-sm opacity-0;
+  }
+  .typing-text {
+      @apply overflow-hidden whitespace-nowrap w-0 inline-block border-r-2 border-solid border-black
+  }
